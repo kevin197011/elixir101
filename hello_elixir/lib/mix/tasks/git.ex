@@ -2,7 +2,7 @@ defmodule Mix.Tasks.Git do
   @moduledoc "The hello mix task: `mix help hello`"
   use Mix.Task
 
-  @shortdoc "Simply runs the Hello.run/0 command."
+  @shortdoc "Simply runs the Git.run/0 command."
   def run(_) do
     Mix.Task.run("app.start")
 
