@@ -1,9 +1,6 @@
 defmodule HelloElixir.Http do
   @moduledoc false
 
-  @doc """
-  http get
-  """
   def get(url) do
     http(url, "get")
   end
