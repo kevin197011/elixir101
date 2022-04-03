@@ -7,6 +7,8 @@ defmodule HelloElixirTest do
   end
 
   test "get test" do
-    HelloElixir.Http.get("https://www.baidu.com") |> IO.inspect()
+    HelloElixir.Http.get("https://www.baidu.com")
+    .body
+    |> IO.inspect
   end
 end

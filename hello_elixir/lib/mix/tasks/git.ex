@@ -1,4 +1,4 @@
-defmodule Mix.Tasks.Hello do
+defmodule Mix.Tasks.Git do
   @moduledoc "The hello mix task: `mix help hello`"
   use Mix.Task
 
