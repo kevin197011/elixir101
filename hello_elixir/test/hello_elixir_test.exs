@@ -2,13 +2,16 @@ defmodule HelloElixirTest do
   use ExUnit.Case
   doctest HelloElixir
 
-  test "greets the world" do
-    assert HelloElixir.hello() == :world
-  end
+  # test "greets the world" do
+  #   assert HelloElixir.hello() == :world
+  # end
 
-  test "get test" do
-    HelloElixir.Http.get("https://www.baidu.com")
-    .body
-    |> IO.inspect
+  # test "get test" do
+  #   HelloElixir.Http.get("https://www.baidu.com").body
+  #   |> IO.inspect()
+  # end
+
+  test "typeof" do
+    IEx.Info.info(IO.puts("hello"))
   end
 end
